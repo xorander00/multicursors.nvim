@@ -142,10 +142,11 @@ local M = {
     insert_keys = insert_keys,
     extend_keys = extend_keys,
     -- see :help hydra-config.hint
-    hint_config = {
-        border = 'none',
-        position = 'bottom',
-    },
+    -- FIXME:
+    -- hint_config = {
+    --     border = 'none',
+    --     position = 'bottom',
+    -- },
     -- accepted values:
     -- -1 true: generate hints
     -- -2 false: don't generate hints
